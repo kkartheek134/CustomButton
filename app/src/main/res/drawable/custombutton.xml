@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval" android:innerRadius="0dp" android:useLevel="true">
+
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/first"/>
+            <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"/>
+            <stroke android:color="@color/second" android:dashGap="1dp" android:width="2dp"/>
+        </shape>
+
+    </item>
+    <item android:state_hovered="true">
+        <shape android:shape="rectangle" android:innerRadius="0dp" android:useLevel="true">
+
+            <corners android:radius="5dp"/>
+            <solid android:color="@color/second"/>
+            <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"/>
+            <stroke android:color="@color/first" android:dashGap="1dp" android:width="2dp"/>
+        </shape>
+
+    </item>
+
+<item>
+<shape android:shape="ring" android:innerRadius="0dp" android:useLevel="true">
+
+    <corners android:radius="5dp"/>
+    <solid android:color="#f00"/>
+    <padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"/>
+    <stroke android:color="#00f" android:dashGap="1dp" android:width="2dp"/>
+</shape>
+
+</item>
+
+</selector>
